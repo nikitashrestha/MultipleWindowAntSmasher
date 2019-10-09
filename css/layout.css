@@ -1,0 +1,30 @@
+.game-wrapper{
+    width: 500px;
+    float: left;
+    /* border: 4px solid red; */
+    height: 500px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.game-box{
+    width: 500px;
+    float: left;
+    border: 4px solid red;
+    height: 500px;
+    position: relative;
+}
+
+.box-style{
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    /* background-color: red; */
+    background-image: url("../images/ant-new.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.score-count{
+    float: right;
+}
